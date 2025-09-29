@@ -58,7 +58,7 @@ pyparsing==3.2.5
 pytesseract==0.3.13
 python-dateutil==2.9.0.post0
 pytz==2025.2
-pywin32==311
+#pywin32==311
 PyYAML==6.0.3
 pyzmq==27.1.0
 referencing==0.36.2
@@ -84,4 +84,5 @@ urllib3==2.5.0
 watchdog==6.0.0
 wcwidth==0.2.14
 zipp==3.23.0
+
 
