@@ -13,7 +13,7 @@ st.set_page_config(page_title="KYC Document Extractor", layout="wide", initial_s
 
 # --- Configuration & Setup ---
 #MODEL_PATH = os.path.join('kyc_classifier', 'aadhar_pan_run', 'weights', 'best.pt')
-MODEL_PATH=r"C:\Users\Geshu.Sinha\Desktop\Projects\PERS\Aadhar_Panb\train6\weights\best.pt"
+MODEL_PATH=r"best.pt"
 UPLOAD_FOLDER = 'uploads'
 
 # Create the upload folder if it doesn't exist
@@ -125,3 +125,4 @@ if uploaded_file is not None:
 
     # Clean up by removing the uploaded file
     os.remove(file_path)
+
